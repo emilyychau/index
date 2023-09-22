@@ -44,7 +44,7 @@
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 20px;
+            padding: 10px;
         }
 
         /* Call to action section */
@@ -68,7 +68,7 @@
             background-color: #F2DFD7;
             color: #fff;
             padding: 30px 0;
-            text-align: center;
+            text-align: left
         }
 
         /* Responsive CSS */
@@ -93,36 +93,56 @@
                 font-size: 1em;
             }
         }
+        /* Basic styling for the menu */
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: right;
+        }
 
-        /* Add your additional styles here */
+        li {
+            display: inline;
+            margin-right: 20px;
+            text-align: right;
+            font-size: 0.8em;
+        }
+
+        a {
+            text-align: right;
+            text-decoration: none;
+            color: #333;
+        }
     </style>
 </head>
 
 <body>
     <header>
-        <p style="text-align: left; font-size: 0.8em">uxd @ wlu</p><br>
-        
+        <nav style="text-align: right; font-size: 1em">
+            <li><a href="#about">about me</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#resume">resume</a></li>
+        </nav><br>
         <h1>Emily Chau</h1>
     </header>
-
     <div class="container">
-        <p>Welcome to our responsive, clean, and minimalist landing page. This page is designed to look great on all
-            devices.</p>
+        <p>just like the TTC, this site is under construction</p>
+        
     </div>
 
     <div class="cta">
         <div class="container">
-            <h2>Call to Action</h2>
+            <h2 style="font-family: 'Hammersmith One', sans-serif">before you leave!</h2>
             <p>Use this section to encourage users to take a specific action, such as signing up or learning more about
                 your product or service.</p><br>
-            <a href="#"
+            <br><a href="#"
                 style="color: #333; text-decoration: none; border: 1px solid #333; padding: 10px 20px; border-radius: 5px;">Learn
                 More</a>
         </div>
     </div>
 
     <footer>
-        <p style="color: #333; font-size: 0.8em">&copy; 2023 EC<br>designed with ♡ on treaty 4 & treaty 14 land</p> 
+        <p style="color: #333; text-align: center; font-size: 0.8em">&copy; 2023 EC<br>designed with ♡ on treaty 4 & treaty 14 land</p> <br>
+        <p style="color: #333; font-size: 0.8em; text-align: left; padding-left: 20px; padding-right: 20px">I want to acknowledge the privilege I have to live and study on the territories traditionally occupied and cared for by Indigenous Peoples across Turtle Island. Laurier's campuses are located on the traditional territories of the Anishinabeg, Haudenosaunee and Attawandaron peoples. I am deeply grateful for the opportunity that I have to learn and grow on this land, which continues to be cared for by the First Peoples of Canada. </p>
     </footer>
 </body>
 
