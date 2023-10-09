@@ -37,7 +37,6 @@
             font-family: 'Hammersmith One', sans-serif;
             font-size: 3em;
             color: #333;
-            text-align: center;
         }
 
         /* Main content container */
@@ -45,6 +44,7 @@
             max-width: 800px;
             margin: 20px auto;
             padding: 10px;
+            text-align: left;
         }
 
         /* Call to action section */
@@ -61,6 +61,7 @@
         p {
             font-size: 1.2em;
             color: #777;
+            text-align: left;
         }
 
         /* Footer */
@@ -83,6 +84,7 @@
 
             .cta {
                 padding: 20px 0;
+                text-align: center;
             }
 
             h2 {
@@ -108,37 +110,48 @@
         }
 
         a {
-            text-align: right;
             text-decoration: none;
             color: #333;
+        }
+        .button {
+            display: inline;
+            text-align: center;
+            color: #333; 
+            text-decoration: none; 
+            border: 1px solid #333; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 
 <body>
     <header>
-        <nav style="text-align: right; font-size: 1em">
+        <li><a href="#laurier" style="position: absolute; left: 20px">ux design @ wlu</a></li>
+        <nav style="font-size: 1em; text-align: right">
             <li><a href="#about">about me</a></li>
             <li><a href="#portfolio">portfolio</a></li>
             <li><a href="#resume">resume</a></li>
-        </nav><br>
+        </nav>
+        <br>
         <h1>Emily Chau</h1>
     </header>
     <div class="container">
-        <p>just like the TTC, this site is under construction</p>
+        <p>just like the TTC, this site is under construction 🏗</p>
         
     </div>
 
     <div class="cta">
         <div class="container">
-            <h2 style="font-family: 'Hammersmith One', sans-serif">before you leave!</h2>
-            <p>Use this section to encourage users to take a specific action, such as signing up or learning more about
-                your product or service.</p><br>
-            <br><a href="#"
-                style="color: #333; text-decoration: none; border: 1px solid #333; padding: 10px 20px; border-radius: 5px;">Learn
-                More</a>
+            <h2 style="font-family: 'Hammersmith One', sans-serif">before you leave, take my (digital) card!</h2>
+            <div class="button"><a href="https://www.linkedin.com/in/emilyy-chau">LinkedIn</a></div>
         </div>
     </div>
+
 
     <footer>
         <p style="color: #333; text-align: center; font-size: 0.8em">&copy; 2023 EC<br>designed with ♡ on treaty 4 & treaty 14 land</p> <br>
