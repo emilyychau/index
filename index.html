@@ -43,9 +43,15 @@
         .container {
             max-width: 800px;
             margin: 20px auto;
-            padding: 10px;
+            padding-top, padding-left, padding-right: 10px;
+            padding-bottom: 70px;
             text-align: left;
         }
+        .poster {
+            width: 306px;
+            height: 396px;
+            background-color: #EB8738;
+}
 
         /* Call to action section */
         .cta {
@@ -68,7 +74,7 @@
         footer {
             background-color: #F2DFD7;
             color: #fff;
-            padding: 30px 0;
+            padding: 30px;
             text-align: left
         }
 
@@ -79,11 +85,12 @@
             }
 
             .container {
-                padding: 10px;
+                padding-top, padding-left, padding-right: 10px;
+                padding-bottom: 50px;
             }
 
             .cta {
-                padding: 20px 0;
+                padding: 10px 0;
                 text-align: center;
             }
 
@@ -124,7 +131,14 @@
             position: absolute;
             top: 50%;
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translate(-50%, 900%);
+        }
+        .img {
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 10px;
+            max-width: 365px;
         }
     </style>
 </head>
@@ -135,27 +149,23 @@
         <nav style="font-size: 1em; text-align: right">
             <li><a href="#about">about me</a></li>
             <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#resume">resume</a></li>
+            <li><a target="_blank" rel="noopener" href="https://docs.google.com/document/d/e/2PACX-1vQmts-tqGEdmZBJ7mTJRAVITDNtBPJurqzeisPoxWxuA411ZxpwPD8L2sG-di4NScPZl0QnoKBttmvu/pub">resume</a></li>
         </nav>
         <br>
         <h1>Emily Chau</h1>
     </header>
     <div class="container">
-        <p>just like the TTC, this site is under construction 🏗</p>
-        
+        <h2>just like the TTC, this site is under construction 🏗</h2>
+        <div class="img"> <img src="TTC spoof poster.png" width="306px" class=center alt="Spoof of a TTC closure notice poster. It reads: Multi-day closure. Last updated Monday, October 9, 2023. No portfolio access on Line 5 between Mt. Dennis and Kennedy stations due to prolonged maintenance. Please use the finished side of Line 5. Employers requiring an immediate connection to my design portfolio, should email me directly.">
+        <p style="text-align: justify"> A spoof poster of the often seen TTC subway closure notices. </p>
+        <p style="text-align: justify"> Take a closer look and you'll see that it parallels my design</p>
+        <p style="text-align: justify">portfolio with the still-under-construction Eglinton LRT.</p></div><br>
+            <h2 style="font-family: 'Hammersmith One', sans-serif">before you leave, take my (digital) card!<br></h2>
+            <div class="button"><a target="_blank" rel="noopener" href="https://www.linkedin.com/in/emilyy-chau">LinkedIn</a></div><br>
     </div>
-
-    <div class="cta">
-        <div class="container">
-            <h2 style="font-family: 'Hammersmith One', sans-serif">before you leave, take my (digital) card!</h2>
-            <div class="button"><a href="https://www.linkedin.com/in/emilyy-chau">LinkedIn</a></div>
-        </div>
-    </div>
-
-
     <footer>
         <p style="color: #333; text-align: center; font-size: 0.8em">&copy; 2023 EC<br>designed with ♡ on treaty 4 & treaty 14 land</p> <br>
-        <p style="color: #333; font-size: 0.8em; text-align: left; padding-left: 20px; padding-right: 20px">I want to acknowledge the privilege I have to live and study on the territories traditionally occupied and cared for by Indigenous Peoples across Turtle Island. Laurier's campuses are located on the traditional territories of the Anishinabeg, Haudenosaunee and Attawandaron peoples. I am deeply grateful for the opportunity that I have to learn and grow on this land, which continues to be cared for by the First Peoples of Canada. </p>
+        <p style="color: #333; font-size: 0.8em; text-align: left; padding-left: 60px; padding-right: 60px">I want to acknowledge the privilege I have to live and study on the territories traditionally occupied and cared for by Indigenous Peoples across Turtle Island. Laurier's campuses are located on the traditional territories of the Anishinabeg, Haudenosaunee and Attawandaron peoples. I am deeply grateful for the opportunity that I have to learn and grow on this land, which continues to be cared for by the First Peoples of Canada. </p>
     </footer>
 </body>
 
