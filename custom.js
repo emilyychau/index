@@ -13,7 +13,7 @@ customElements.define("x-fullyear", YearElement);
 class CopyrightElement extends HTMLElement{
     connectedCallback(){
         this.innerHTML = "designed with ♡ on treaty 4 & treaty 14 land"
-        `<div style="color:DarkRed; text-align:center; font-family: Roboto, sans-serif;">${this.innerHTML}</div>`;
+        `<div style="color:Black; text-align:center; font-family: Montserrat, sans-serif;">${this.innerHTML}</div>`;
     }
 }
 
