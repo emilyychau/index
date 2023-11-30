@@ -27,4 +27,4 @@ class AcknowledgementElement extends HTMLElement{
     }
 }
 
-customElements.define("x-footer", AcknowledgementElement);
+customElements.define("x-landback", AcknowledgementElement);
