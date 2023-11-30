@@ -7,26 +7,106 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
     <link href="https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap" rel="stylesheet">
     <style>
-        body {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #fff;
-            color: #333;
+        /* Main content container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding-top, padding-left, padding-right: 10px;
+            padding-bottom: 70px;
             text-align: left;
         }
+        .poster {
+            width: 306px;
+            height: 396px;
+            background-color: #EB8738;
+}
 
-        /* Header styles */
-        header {
-            font-family: 'Montserrat', sans-serif;
-            background-color: #fff;
-            padding: 20px 0;
-            border-bottom: 1px solid #ccc;
+        /* Call to action section */
+        .cta {
+            background-color: ##FEF9FF;
+            padding: 40px 0;
+        }
+
+        h2 {
+            font-size: 1.5em;
             text-align: center;
         }
 
-        h1 {
-            font-family: 'Hammersmith One', sans-serif;
-            font-size: 1em;
+        p {
+            font-size: 1.2em;
+            color: #777;
+            text-align: left;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #F2DFD7;
+            color: #fff;
+            padding: 30px;
+            text-align: left
+        }
+
+        /* Responsive CSS */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1em;
+            }
+
+            .container {
+                padding-top, padding-left, padding-right: 10px;
+                padding-bottom: 50px;
+            }
+
+            .cta {
+                padding: 10px 0;
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            p {
+                font-size: 1em;
+            }
+        }
+        /* Basic styling for the menu */
+        ul {
+            list-style: none;
+            padding: 0;
+            text-align: right;
+        }
+
+        li {
+            display: inline;
+            margin-right: 20px;
+            text-align: right;
+            font-size: 0.8em;
+        }
+
+        a {
+            text-decoration: none;
             color: #333;
+        }
+        .button {
+            display: inline;
+            text-align: center;
+            color: #333; 
+            text-decoration: none; 
+            border: 1px solid #333; 
+            padding: 10px 20px; 
+            border-radius: 5px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 950%);
+        }
+        .img {
+            display: block;
+            margin: auto;
+            text-align: center;
+            font-size: 10px;
+            max-width: 365px;
         }
     </style>
 </head>
