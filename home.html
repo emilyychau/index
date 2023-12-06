@@ -101,6 +101,49 @@
             text-decoration: none;
             color: #333;
         }
+        div.gallery {
+            border: 1px solid #ccc;
+        }
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc {
+        padding: 15px;
+        text-align: center;
+        }
+
+        * {
+        box-sizing: border-box;
+        }
+
+        .responsive {
+        padding: 0 6px;
+        float: left;
+        width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+        .responsive {
+            width: 49.99999%;
+            margin: 6px 0;
+        }
+        }
+
+        @media only screen and (max-width: 500px) {
+        .responsive {
+            width: 100%;
+        }
+        }
+
+        .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+        }
     </style>
 <body>
     <header>
@@ -115,8 +158,44 @@
         <h1>Emily Chau</h1>
     </header>
     <main>
-        I'm a User Experience Design student at Laurier.
-
+          <h1>Work Samples</h1>
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_5terre.jpg">
+                <img src="ISOW Medfi.png" alt="International Students Overcoming War (ISOW) Website Redesign" width="600" height="400">
+              </a>
+              <div class="desc">ISOW</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_forest.jpg">
+                <img src="CoCo POS.png" alt="Point of Sale Redesign, CoCo Fresh Tea and Juice" width="600" height="400">
+              </a>
+              <div class="desc">Point of Sale Redesign</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_lights.jpg">
+                <img src="New Guide Exp Map.png" alt="New Guide, Generative Research Project" width="600" height="400">
+              </a>
+              <div class="desc">New Guide</div>
+            </div>
+          </div>
+          
+          <div class="responsive">
+            <div class="gallery">
+              <a target="_blank" href="img_mountains.jpg">
+                <img src="VWR Sitemap.png" alt="Sitemap of the Volunteer Waterloo Region (VWR) Site" width="600" height="400">
+              </a>
+              <div class="desc">VWR</div>
+            </div>
+          </div>
+          
+          <div class="clearfix"></div>          
     </main>
     <footer>
         <div class="center-footer">
