@@ -32,7 +32,7 @@ customElements.define("x-landback", AcknowledgementElement);
 
 class LineElement extends HTMLElement{
     connectedCallback(){
-        this.innerHTML = `<div style="color: #333; font-size: 0.8em;">${this.innerHTML}</div>`
+        this.innerHTML = `<div style="color: #333; font-size: 0.8em; text-align: center;">${this.innerHTML}</div>`
       
     }
 }
