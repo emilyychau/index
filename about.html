@@ -76,6 +76,9 @@
             padding: 30px;
             font-size: 0.8em;
         }
+        .center-footer {
+            text-align: center;
+        }
 
         /* Responsive CSS */
         @media (max-width: 768px) {
@@ -189,7 +192,9 @@
         <x-formatline> &copy; Emily Chau <x-fullyear></x-fullyear> <br/>
         <x-footer></x-footer></x-formatline> <br/>
         </div>
-        <x-formatpara><x-landback></x-landback></x-formatpara>
+        <div class="paragraph-footer">
+            <x-formatpara><x-landback></x-landback></x-formatpara>
+        </div>
         <script src="custom.js"></script>
     </footer>
 </body>
