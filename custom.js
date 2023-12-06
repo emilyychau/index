@@ -28,17 +28,6 @@ class AcknowledgementElement extends HTMLElement{
 
 customElements.define("x-landback", AcknowledgementElement);
 
-// custom paragraph footer formatting
-
-class ParagraphElement extends HTMLElement{
-    connectedCallback(){
-        this.innerHTML = `<div style="color: #333; font-size: 0.8em; text-align: left; padding-left: 60px; padding-right: 60px;">${this.innerHTML}</div>`
-      
-    }
-}
-
-customElement.define("x-formatpara", FormatElement);
-
 // custom line footer formatting
 
 class LineElement extends HTMLElement{
@@ -49,3 +38,15 @@ class LineElement extends HTMLElement{
 }
 
 customElement.define("x-formatline", LineElement);
+
+// custom paragraph footer formatting
+
+class ParagraphElement extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = `<div style="color: #333; font-size: 0.8em; text-align: left;">${this.innerHTML}</div>`
+      
+    }
+}
+
+customElement.define("x-formatpara", FormatElement);
+
