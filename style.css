@@ -5,13 +5,13 @@ main{
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #fff;
-    color: #333; 
+    color: #18191a;
     text-align: left;
     }
     
 p {
     font-family: 'Montserrat', sans-serif;
-    color: #333;
+    color: #18191a;
     text-align: left;
     font-size: 1em;
     }
@@ -66,7 +66,7 @@ p {
     
             p {
                 font-size: 1em;
-                color: #777;
+                color: #18191a;
                 text-align: left;
             }
     
@@ -162,7 +162,7 @@ p {
     
     footer {
     background-color: #F2DFD7;
-    color: black;
+    color: #18191a;
     padding: 30px;
     font-size: 0.8em;
     }
@@ -179,7 +179,7 @@ p {
             
     .links-footer {
     text-align: right;
-    color: darkblue;
+    color: midnightblue;
     text-decoration: underline;
     text-decoration-color: darkblue;
     }
