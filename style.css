@@ -130,7 +130,7 @@ p {
     }
             
     .col-right {
-    width: 80%;
+    width: 60%;
     float: right;
     padding-left: 20px;
     }
@@ -157,7 +157,13 @@ p {
     max-width: 365px;
     }
     
-    
+/* MEDIA QUERY */    
+@media screen and (max-width: 800px) {
+    .col-left, .col-right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
 /* FOOTER */
     
     footer {
