@@ -165,7 +165,7 @@ p {
   }
 
 @media screen and (max-width: 900px) {
-    .responsive, .div.gallery, div.desc {
+    .responsive {
       width: 100%; 
     }
   }
