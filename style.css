@@ -174,7 +174,6 @@ p {
     
     footer {
     background-color: #F2DFD7;
-    color: #18191a;
     padding: 30px;
     font-size: 0.8em;
     }
@@ -183,10 +182,12 @@ p {
     .center-footer {
     text-align: center;
     padding-bottom: 15px;
+    color: #18191a;
     }
             
     .paragraph-footer {
     text-align: left;
+    color: #18191a;
     }
             
     .links-footer {
