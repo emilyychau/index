@@ -70,7 +70,29 @@ p {
                 text-align: left;
             }
     
-    
+/* TAGS */
+
+    .tag {
+        outline: 0;
+        color: #fff;
+        background-color: 3D5A80;
+        border-color: 3D5A80;
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        text-align: center;
+        border: 1px solid transparent;
+        padding: 6px 12px;
+        font-size: 16px;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+        :hover {
+            color: #fff;
+            background-color: 3D5A80;
+            border-color: rgb(3, 74, 179)
+        }
+    }
+
 /* GALLERY */
     
     div.gallery {
