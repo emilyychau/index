@@ -74,7 +74,7 @@ p {
 
     .tag {
         outline: 0;
-        color: #fff;
+        color: #202020;
         background-color: 3D5A80;
         border-color: 3D5A80;
         display: inline-block;
@@ -87,7 +87,7 @@ p {
         border-radius: .25rem;
         transition: color .15s ease-in-out, background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
         :hover {
-            color: #fff;
+            color: #202020;
             background-color: 3D5A80;
             border-color: rgb(3, 74, 179)
         }
