@@ -157,6 +157,8 @@ p {
     }
             
     .button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1em;
     display: inline;
     text-align: center;
     color: #333;
