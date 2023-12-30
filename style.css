@@ -72,6 +72,7 @@ p {
 /* TAGS */
 
     .tag {
+        font-family: 'Hammersmith One', sans-serif;
         outline: 0;
         color: #202020;
         background-color: 3D5A80;
