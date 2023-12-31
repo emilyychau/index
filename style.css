@@ -179,6 +179,14 @@ p {
     font-size: 10px;
     max-width: 365px;
     }
+
+    #gmp1-process {
+        width: 100%;
+        background-image: url(https://i.imgur.com/XdsGzB4.jpg);
+        height: 405px;
+        background-position: center;
+      }
+      
     
 /* MEDIA QUERY */    
 @media screen and (max-width: 800px) {
