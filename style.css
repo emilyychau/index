@@ -181,11 +181,8 @@ p {
     }
 
     #gmp1-process {
-        width: 100%;
         background-image: url(https://i.imgur.com/XdsGzB4.jpg);
-        height: 405px;
-      }
-      
+      }    
     
 /* MEDIA QUERY */    
 @media screen and (max-width: 800px) {
@@ -200,6 +197,12 @@ p {
     }
   }
 
+ @media screen and (max-width: 800px) {
+    .gmp1-process {
+        width: 100%;
+    }
+ }
+  
 /* FOOTER */
     
     footer {
