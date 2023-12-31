@@ -182,6 +182,8 @@ p {
 
     #gmp1-process {
         background-image: url(https://i.imgur.com/XdsGzB4.jpg);
+        width: 100%;
+        height: auto;
       }    
     
 /* MEDIA QUERY */    
@@ -196,12 +198,6 @@ p {
       width: 100%; 
     }
   }
-
- @media screen and (max-width: 800px) {
-    #gmp1-process {
-        width: 100%;
-    }
- }
   
 /* FOOTER */
     
