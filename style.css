@@ -179,12 +179,6 @@ p {
     font-size: 10px;
     max-width: 365px;
     }
-
-/* SECTIONS */
-
-.gmp1-process {
-    background-image: url("https://i.imgur.com/3IwsVoU.jpg");
-}
     
 /* MEDIA QUERY */    
 @media screen and (max-width: 800px) {
