@@ -198,7 +198,7 @@ p {
   }
 
  @media screen and (max-width: 800px) {
-    .gmp1-process {
+    #gmp1-process {
         width: 100%;
     }
  }
