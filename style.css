@@ -124,6 +124,7 @@ p {
 
     .responsive-gal {
         float: left;
+        width: 30%;
     }
     
     .clearfix:after {
