@@ -121,6 +121,10 @@ p {
     float: left;
     width: 24.99999%;
     }
+
+    .responsive-gal {
+        float: left;
+    }
     
     .clearfix:after {
     content: "";
